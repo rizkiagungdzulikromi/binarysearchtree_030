@@ -107,7 +107,7 @@ public:
 		{
 			cout << "tree is empty" << endl;
 			return;
-		}    
+		}     
 		if (ptr != NULL)
 		{
 			postorder(ptr->leftchild);
